@@ -23,7 +23,7 @@
         </ul>
       </div>
       <div>
-      <a href="/"><img class="h-12 inline-block align-middle" src="src\assets\logo.png" alt="MortyLock logo">
+      <a href="/"><img class="h-12 inline-block align-middle" src="/src/assets/logo.png" alt="MortyLock logo">
       <span class="text-xl font-semibold">MortyLock</span></a>
       </div>
     </div>

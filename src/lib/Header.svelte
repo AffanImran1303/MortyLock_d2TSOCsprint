@@ -1,7 +1,3 @@
-<script>
-  import logo from "/src/assets/logo.png";
-</script>
-
 <div class="navbar p-2 bg-transparent">
     <div class="navbar-start">
       <div class="dropdown">
@@ -27,7 +23,7 @@
         </ul>
       </div>
       <div>
-      <a href="/"><img class="h-12 inline-block align-middle" src={logo} alt="MortyLock logo">
+      <a href="/"><img class="h-12 inline-block align-middle" src="/src/assets/logo.png" alt="MortyLock logo">
       <span class="text-xl font-semibold">MortyLock</span></a>
       </div>
     </div>

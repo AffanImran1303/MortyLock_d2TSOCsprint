@@ -1,4 +1,4 @@
-<div class="navbar p-2 bg-transparent">
+<!-- <div class="navbar bg-[#29478a] text-[#fefdfd]">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -23,8 +23,8 @@
         </ul>
       </div>
       <div>
-      <a href="/"><img class="h-12 inline-block align-middle" src="/src/assets/logo.png" alt="MortyLock logo">
-      <span class="text-xl font-semibold">MortyLock</span></a>
+      <a href="/">
+      <span class="text-xl font-bold">MortyLock</span></a>
       </div>
     </div>
     <div class="navbar-end">
@@ -36,4 +36,43 @@
             </ul>
           </div>
     </div>
+  </div> -->
+<div class="flex justify-center">
+  <div class="navbar bg-[#29478a] text-[#fefdfd] w-96% rounded-lg m-5">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabIndex={0} role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul
+          tabIndex={0}
+          class="menu menu-sm dropdown-content bg-[#3d76d9] text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="/">Home</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-xl font-semibold" href="/">MortyLock</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="/">Home</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn secondary-button" href="login">Login</a>
+      <a class="btn m-2 primary-button" href="registration">Get Register</a>
+
+    </div>
+    
   </div>
+</div>

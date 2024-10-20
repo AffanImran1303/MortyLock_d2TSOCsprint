@@ -1,3 +1,3 @@
-<div class="m-10">
-<p class="text-3xl font-semibold">Pending Requests</p>
+<div class="m-10 h-screen">
+<p class="text-3xl font-bold">Pending Requests</p>
 </div>

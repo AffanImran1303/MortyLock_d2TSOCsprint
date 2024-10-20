@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 :root{
-    background-color: #e0f4f4;
-    color:#181818;
+    background-color: #fefdfd;
+    color:#29478a;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    font-family:'Segoe UI';
+    background-image: url('src/assets/endless-constellation.png');
+}
+.primary-button{
+    background-color: #3d76d9;
+    color: #fefdfd;
+    border:none;
+}
+.secondary-button{
+    background-color: #fefdfd;
+    color: #29478a;
+}
+.form-text{
+    color: #29478a;
 }

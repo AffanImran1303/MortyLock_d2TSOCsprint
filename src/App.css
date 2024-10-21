@@ -8,7 +8,7 @@
 }
 body{
     font-family:'Segoe UI';
-    background-image: url('src/assets/endless-constellation.png');
+    background-image: url('/src/assets/endless-constellation.png');
 }
 .primary-button{
     background-color: #3d76d9;

@@ -37,7 +37,7 @@ let email = '';                                                                 
 			<div class="relative">
 
 				<label class="text-sm font-bold tracking-wide">Username
-				<input class=" w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="" placeholder="Enter username" value="">
+				<input class=" w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="username" placeholder="Enter username" value={username}>
             </label>    
             </div>
             <div class="mt-8 content-center">
@@ -58,7 +58,7 @@ let email = '';                                                                 
 				<label class="text-sm font-bold tracking-wide">
 					Confirm Password
 				
-				<input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="" placeholder="Re-enter your password" value="">
+				<input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="password" placeholder="Re-enter your password" value={password}>
             </label>
             </div>
 			<div>

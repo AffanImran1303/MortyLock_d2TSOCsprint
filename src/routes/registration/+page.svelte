@@ -5,7 +5,7 @@ let email = '';                                                                 
   let password = '';
 
   async function register() {
-    const response = await fetch('https://morty-lock-d2-tso-csprint.vercel.app/api/auth/register', {
+    const response = await fetch('https://morty-lock-d2-tso-csprint.vercel.app/auth/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, username, password })

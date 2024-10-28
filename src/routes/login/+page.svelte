@@ -40,7 +40,7 @@ async function login() {
 			<div class="relative">
 
 				<label class="text-sm font-bold tracking-wide">Email
-				<input class=" w-full py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="email" placeholder="Enter your email" value={email} required>
+				<input class=" w-full py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="email" placeholder="Enter your email" bind:value={email} required>
             </label>    
             </div>
 			<div class="mt-8 content-center">

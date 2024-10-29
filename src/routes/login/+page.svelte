@@ -7,7 +7,7 @@ let password = '';
 let token = '';
 
 async function login() {
-  const response = await fetch('https://morty-lock-d2-tso-csprint.vercel.app/api/auth/login', {
+  const response = await fetch('https://morty-lock-d2-tso-csprint.vercel.app/auth/login ', {
 	method: 'POST',
 	headers: { 'Content-Type': 'application/json' },
 	body: JSON.stringify({ email, password })

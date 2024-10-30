@@ -37,7 +37,7 @@ let email = '';                                                                 
 			<div class="relative">
 
 				<label class="text-sm font-bold tracking-wide">Username
-				<input class=" w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="username" placeholder="Enter username" value={username}>
+				<input class=" w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-blue-600" type="username" placeholder="Enter username" bind:value={username}>
             </label>    
             </div>
             <div class="mt-8 content-center">
